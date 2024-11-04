@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 
+
 body{
     font-family: 'Inter', sans-serif;
     background-color: #043873;
 }
 
+img{
+    max-width: 100%;
+}
 a{
     text-decoration: none;
 }
@@ -23,6 +27,8 @@ li{
     padding: 1.2rem;    
    
 }   
+
+
 
 /* Header Part */
 .header-flex{
@@ -58,8 +64,8 @@ ul label{
 }
 
 .header img{
-    width: 160px;
-    height: 30px;
+    width: 150px;
+    height: 28px;
 }
 
 .header .login-flex{
@@ -71,32 +77,98 @@ ul label{
 
     .login{
        
-        padding: 13px 34px;
+        padding: 11px 34px;
         background-color: #FFE492;
         border-radius: 8px;
        
 
         h4{
-            font-size: 15px;
+            font-size: 14px;
             font-weight: 500;
         }
-
+        h4:hover{
+            color: #7f6b6b
+        }
     }
-
     .try{
-        background-color: #4F9CF9;
+        
+        background-color: #4f9cf9;
         border-radius: 8px;
-        padding: 13px 24px;
-
+        padding: 11px 19px;
+    
         h4{
-            font-size: 15px;
-            font-weight: 500;
+            font-size: 14px;
+            font-weight: 450;
             color: #fff;
         }
+    
+    }
+}
+
+/* main Section1 */
+
+.main-flex{
+    display: flex;
+    gap: 24px;
+    /* border: 1px solid white; */
+    height: 555px;
+    align-items: center;
+
+}
+
+.text{
+    /* border: 1px solid white;     */
+
+    h2{
+        
+        color: #fff;
+        font-size: 2.4rem;
+        font-weight: 700;
+        line-height: 45px;
+        margin-bottom: 24px;
+        
+    }
+    h4{
+        color: #fff;
+        font-size: 11px;
+        font-weight: 250;
+        line-height: 19px;
+        margin-bottom: 40px;
+    }
+}
+.text .try1{
+    
+    background-color: #4f9cf9;
+    border-radius: 8px; 
+    display: block;
+    width: 200px;    
+    height: 50px;
+
+    h4{
+         
+        text-align: center;
+        height: 100%;
+        padding-top: 16px;
+        font-size: 15px;
+        font-weight: 400;
     }
 }
 
 
+
+.image{
+   
+    /* border: 1px solid white; */
+    background-image: url('images/image2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 95%; 
+    height: 400px; 
+}
+
+ 
+  
 
 
 
@@ -110,15 +182,26 @@ ul label{
         align-items: center;
         gap: 10px;
         text-align: center;
-        border: 1px solid white;
+        /* border: 1px solid white; */
         
     }
     .menu{
         margin-left: 1px;
     }
 
-    /* .login-flex{
+    .main-flex{
         flex-direction: column;
-        gap: ;
-    } */
+        
+    }
+
+   .text{
+    margin-top: 30px;
+    text-align: center;
+
+   }
+   .text .try1{
+    display: inline-block;
+    margin-bottom: 20px ;
+    
+   }
 }
