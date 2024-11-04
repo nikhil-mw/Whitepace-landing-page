@@ -172,13 +172,14 @@ ul label{
 
 .wrapper{
     background-color: #fff;
-    height: 1200px;
+    height: 1100px;
 }
 
 .wrapper .main-flex{
     .text{
         h2{
             color: black;
+            font-size: 50px;
         }
         .underline{
             background-image: url(images/Element.png) ;
@@ -186,18 +187,31 @@ ul label{
           
         }
         h4{
+            font-weight: 300;
             color: black;
+            font-size: 12px;
         }
     }
     .try1{
+        width: 140px;
         h4{
             color: #fff;
         }
     }
 }
   
+.wrapper{
+    background-image: url(images/Group.png) ;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: 0 190px;
+    
+}
 
-
+.wrapper .main-flex2{
+    flex-direction: row-reverse;
+    gap: 2rem;
+}
 
 
 @media(max-width: 500px){
