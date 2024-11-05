@@ -24,7 +24,7 @@ li{
 .container-lg{
     max-width: 1080px;
     margin: 0 auto;
-    padding: 1.2rem;    
+    
    
 }   
 
@@ -37,6 +37,7 @@ li{
     justify-content: space-between;
     align-items: center;
     max-height: 92px;
+    margin-top: 1.2rem;
     /* border: 1px solid white; */
 }
 
@@ -113,7 +114,7 @@ ul label{
     display: flex;
     gap: 24px;
     /* border: 1px solid white; */
-    height: 565px;
+    height: 582px;
     align-items: center;
 
     .text{
@@ -211,6 +212,177 @@ ul label{
 .wrapper .main-flex2{
     flex-direction: row-reverse;
     gap: 2rem;
+}
+
+/* Footer Part */
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    gap: rem;
+    margin-top: 4.5rem;
+    /* border: 1px solid white; */
+    height: 200px;
+}
+.whitepace{
+    flex: 1;
+
+    margin-right: 40px;
+    img{
+        width: 110px;
+        height: 20px;
+        margin-bottom: 4px;
+    }
+    h4{
+        color: white;
+        font-size: 11px;
+        font-weight: 300;
+        line-height: 20px;
+       
+      }
+}
+.product{
+    flex: 1;
+
+   
+    h3{
+        color: white;
+        font-size: 15px;
+        font-weight: 450;
+        margin-bottom: 11px;
+        
+    }
+    h4{
+        color: white;
+        font-size: 11px;
+        font-weight: 300;
+        margin-bottom: 8px;
+    }
+    .color{
+        color: #FFE492;
+    }
+}
+
+.Resources{
+    flex: 1;
+    h3{
+        color: white;
+        font-size: 15px;
+        font-weight: 450;
+        margin-bottom: 11px;
+        
+    }
+    h4{
+        color: white;
+        font-size: 11px;
+        font-weight: 300;
+        margin-bottom: 8px;
+    }
+}
+
+.company{
+    flex: 1;
+    h3{
+        color: white;
+        font-size: 15px;
+        font-weight: 450;
+        margin-bottom: 11px;
+        
+    }
+    h4{
+        color: white;
+        font-size: 11px;
+        font-weight: 300;
+        margin-bottom: 8px;
+    }
+}
+
+.tryit{
+    flex: 1;
+    .try1{
+        background-color: #4f9cf9;
+        border-radius: 8px; 
+        display: block;
+        width: 130px;    
+        height: 38px;
+        
+        h4{
+            color: #fff;
+            text-align: center;
+            height: 100%;
+            padding-top: 10px;
+            font-size: 12px;
+            font-weight: 350;
+        }
+
+    }
+
+    h3{
+        color: white;
+        font-size: 19px;
+        font-weight: 450;
+        margin-bottom: 11px;
+        
+    }
+    h4{
+        color: white;
+        font-size: 11px;
+        font-weight: 300;
+        margin-bottom: 13px;
+    }
+}
+
+/* Border Line  */
+.line{
+    border-bottom: 1px solid #2E4E73 ;
+    display: block;
+}
+
+.social-flex{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 30px 0;
+
+}
+
+.info-flex{
+    display: flex;
+    gap: 2rem;
+    i{
+        color: #fff;
+        
+    }
+
+}
+
+.info-flex select{
+    background: transparent;
+    border: none;
+    color: #fff;
+    margin-left: -4px;
+    
+   
+}
+.info-flex label{
+    color: #ffff;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.info-flex h4{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 260;
+}
+
+.social-media{
+    color: #fff;
+    
+    i{
+        padding: 0 .5rem;
+        font-size: 12px;
+    }
 }
 
 
